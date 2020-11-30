@@ -82,7 +82,7 @@ DJANGO_APPS = [
 
 ]
 
-SIDE_ID = 1
+SITE_ID = 1
 
 THIRD_PARTY_APPS = [
     # place your third party apps
