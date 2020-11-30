@@ -1,0 +1,12 @@
+{
+  "project_name": "Django Ecommerce",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "My awesome ecommerce with Django",
+  "author_name": "Telmuun",
+  "domain_name": "example.com",
+  "email": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}@example.com",
+  "timezone": "UTC",
+  "use_pycharm": "n",
+  "use_postgresql": "n",
+  "version": "0.1.0"
+}
