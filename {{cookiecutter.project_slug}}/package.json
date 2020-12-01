@@ -1,0 +1,18 @@
+{
+  "name": "django-ecommerce",
+  "version": "0.1.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "scripts": {
+    "build": "postcss public/css/dashboard.css -o {{cookiecutter.project_slug}}/static/css/dashboard-output.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Telmuun",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.10",
+    "postcss-cli": "^8.3.0",
+    "tailwindcss": "^2.0.1"
+  }
+}
