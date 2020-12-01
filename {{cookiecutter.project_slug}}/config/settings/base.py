@@ -14,9 +14,7 @@ env.read_env(str(ROOT_DIR.path('.env')))
 # GENERAL
 # ------------------------------------------------------------------------------
 DEBUG = env("DEBUG")
-DATE_FORMAT = 'Y-m-d'
-DATETIME_FORMAT = 'Y-m-d H:i:s'
-LANGUAGE_CODE = 'mn'
+LANGUAGE_CODE = 'en'
 TIME_ZONE = 'Asia/Ulaanbaatar'
 USE_I18N = True
 USE_L10N = True
